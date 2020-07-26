@@ -8,9 +8,9 @@ interface Props{
 }
 function Button(props:Props) {
     return (
-        <div>
+        <>
             <Butt variant="contained" color="primary" onClick = {props.handleOnClick}>{props.lable}</Butt>
-        </div>
+        </>
 
     )
 }
